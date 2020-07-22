@@ -1,0 +1,40 @@
+.input-area {
+    border-top: 1px solid rgba(48, 48, 48, 1);
+    background: rgba(24, 24, 24, 1);
+    position: absolute;
+    height: 30px;
+    padding: 7px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.input-text {
+    background: rgba(57, 57, 57, 1);
+    width: calc(100% - 130px);
+    padding-right: 10px;
+    padding-left: 10px;
+    outline: none;
+    color: white;
+    border: none;
+    height: 25px;
+    float: left;
+}
+
+.input-text:focus {
+    border: 1px solid rgba(0, 122, 205, 1);
+}
+
+.send-btn {
+    background-color: rgba(5, 99, 157, 1);
+    display: flex;
+    outline: none;
+    color: white;
+    float: right;
+    height: 27px;
+    width: 100px;
+}
+
+.send-btn:hover {
+    background-color: rgba(0, 122, 205, 1);
+}

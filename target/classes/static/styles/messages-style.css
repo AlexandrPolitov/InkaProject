@@ -1,0 +1,32 @@
+
+.chat {
+    position: relative;
+    float: right;
+    height: 100vh;
+    width: calc(100% - 250px);
+}
+
+.messages-area{
+    height: calc(100% - 50px);
+    overflow-y: scroll;
+}
+
+.messages-list {
+    padding: 0;
+}
+
+.message {
+    list-style-type: none;
+    color: white;
+}
+
+.me {
+    background: rgba(52, 52, 59, 1);
+    word-wrap: normal;
+    padding: 5px;
+}
+
+.another { 
+    word-wrap: normal;
+    padding: 5px;
+}

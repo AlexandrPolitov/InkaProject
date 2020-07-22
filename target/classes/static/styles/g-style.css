@@ -1,0 +1,23 @@
+.g-icon {
+    float: left;
+    margin: 15px;
+    display: block;
+}
+
+.g-label {
+    float: left;
+    margin: 15px;
+    display: flex;
+}
+
+.g-auth {
+    height: 50px;
+    width: 220px;
+    margin: 70% auto;
+    background-color: #E1F2FE;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.g-auth:active {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}

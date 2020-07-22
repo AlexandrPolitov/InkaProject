@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" type="text/css" href="../styles/style.css">
+        <link rel="stylesheet" type="text/css" href="../styles/input-style.css">
+        <link rel="stylesheet" type="text/css" href="../styles/messages-style.css">
+        <link rel="stylesheet" type="text/css" href="../styles/dialogue-style.css">
+        <link rel="stylesheet" type="text/css" href="../styles/user-area.css">
+
+        <script src="../scripts/script.js"></script>
+        <script src="../scripts/requests.js"></script>
+    <head>
+
+    <body class="background">
+        <div class="dialogues">
+            <div id="dialogues" class="dialogues-list">
+            </div>
+            <div class="user-area">
+                <div  id="logoutBtn" class="logout-btn" onclick="get()">
+                    <span style="margin: auto;"> Выйти </span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="chat">
+
+            <div id="messagesArea" class="messages-area">
+                <ul id="messages" class="messages-list">
+                </ul>
+            </div>
+
+            <div class="input-area">
+                <input id="textField" type="text" value="" class="input-text">
+                <div id="sendBtn" class="send-btn">
+                   <span style="margin: auto;" > Отправить </span>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
